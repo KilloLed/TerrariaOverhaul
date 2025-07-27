@@ -8,27 +8,27 @@
 // Search: "Search options..."
 
 Accessibility: {
-	// DisplayName: "Accessibility"
-	// Description: "Overhaul contains a few simple changes that allow everyone to experience the game in a more comfortable way."
+	// DisplayName: "Параметры доступности"
+	// Description: "Overhaul включает несколько простых изменений, которые позволяют всем играть с большим комфортом."
 
 	ForceAutoReuse: {
-		// DisplayName: "Force Auto-reuse"
+		// DisplayName: Принудительное автоиспользование"
 		/* Description:
 			'''
-			When enabled, almost every item in the game will be able to be used repeatedly by holding down the use button.
-			Prevents carpal tunnel syndrome, recommended by 10 out of 10 doctors.
+			Когда включено, почти каждый предмет в игре можно использовать непрерывно, просто удерживая кнопку использования.
+			Предотвращает синдром запястного канала — рекомендовано 10 из 10 врачей!
 			''' */
 	}
 
 	EnableJumpInputBuffering: {
-		// DisplayName: "Enable Jump Input Buffering"
-		// Description: "Allows you to press the jump button a bit prior landing, having your jump still be performed."
+		// DisplayName: "Включить буферизацию прыжка"
+		// Description: "Позволяет нажать кнопку прыжка немного до приземления — прыжок всё равно будет выполнен."
 	}
 }
 
 Ambience: {
-	// DisplayName: "Ambience"
-	// Description: "Overhaul contains many features that help make the game's world feel more immersive."
+	// DisplayName: "Атмосфера"
+	// Description: "«Overhaul включает множество функций, которые делают игровой мир более атмосферным и захватывающим."
 
 	EnableAmbientSounds: {
 		DisplayName: "Включить атмосферные звуки"
@@ -41,28 +41,28 @@ Ambience: {
 	}
 
 	EnableLowPassFiltering: {
-		// DisplayName: "Enable Low Pass Filtering"
-		// Description: "Whether to enable any 'muffling' sound processing."
+		// DisplayName: "Включить приглушение звуков на расстоянии"
+		// Description: Включать ли обработку звука с эффектом приглушения."
 	}
 
 	EnableReverb: {
-		// DisplayName: "Enable Reverb"
-		// Description: "Whether to enable any reverberation sound processing."
+		// DisplayName: "Включить эффект эха"
+		// Description: "Включать ли обработку звука с эффектом реверберации."
 	}
 
 	EnableUnderwaterMuffling: {
-		// DisplayName: "Enable Underwater Muffling"
-		// Description: "If enabled - going underwater will reduce the sound frequency range via 'low-pass filtering'."
+		// DisplayName: "Включить приглушение звука под водой"
+		// Description: "Если включено — погружение под воду будет снижать диапазон звуковых частот с помощью фильтра низких частот."
 	}
 }
 
 Aesthetics: {
-	// DisplayName: "Aesthetics"
-	// Description: "This category contains nice-to-have features that mainly aim to increase immersion or beauty of the game, but may affect gameplay in the process."
+	// DisplayName: "Эстетика"
+	// Description: "Эта категория содержит приятные функции, которые в основном направлены на повышение погружения или красоты игры, но при этом могут повлиять на игровой процесс."
 
 	DestroyStumpsAfterTreeFalls: {
-		// DisplayName: "Destroy Stumps After Tree Falling Animations"
-		// Description: "When enabled, tree falling animations' behavior of redirecting stump hits a block higher will be compensated with removal of the stump after the animation's end."
+		// DisplayName: "Удалять пни после анимации падения дерева"
+		// Description: "При включении, поведение анимации падения дерева, при котором удар по пню перенаправляется на блок выше, компенсируется удалением пня после окончания анимации."
 	}
 
 	EnableAimableFlashlights: {
@@ -71,144 +71,142 @@ Aesthetics: {
 	}
 
 	EnableTreeFallingAnimations: {
-		// DisplayName: "Enable Tree Falling Animations"
-		// Description: "When enabled, trees will physically fall down instead of exploding into items."
+		// DisplayName: "Включить анимацию падения деревьев"
+		// Description: "При включении деревья будут физически падать, а не взрываться на предметы."
 	}
 }
 
 Archery: {
-	// DisplayName: "Archery"
+	// DisplayName: "Лучное дело"
 
 	EnableArrowFragments: {
-		// DisplayName: "Enable Arrow Fragments"
-		// Description: "When enabled, destroyed arrows will break into tiny pieces."
+		// DisplayName: "Включить осколки стрел"
+		// Description: "При включении разрушенные стрелы будут рассыпаться на мелкие части."
 	}
 
 	EnableBowFiringDelays: {
-		// DisplayName: "Enable Bow Firing Delays"
-		// Description: "When enabled, bows' primary use will be slightly delayed to make them more unique. This does not affect their damage output."
+		// DisplayName: "Включить задержки выстрела из лука"
+		// Description: "При включении основной выстрел из луков будет немного задерживаться, чтобы сделать их уникальнее. Это не влияет на урон."
 	}
 
 	EnableBowSoundReplacements: {
-		// DisplayName: "Enable Bow Sound Replacements"
-		// Description: "When enabled, bows will receive new sound effects."
+		// DisplayName: "Включить замену звуков лука"
+		// Description: "При включении луки будут использовать новые звуковые эффекты."
 	}
 
 	EnableBowChargedShots: {
-		// DisplayName: "Enable Bow Charged Shots"
-		// Description: "When enabled, most bows will be able to be charged via right click."
+		// DisplayName: "Включить заряженные выстрелы из лука"
+		// Description: "При включении большинство луков смогут заряжаться с помощью правой кнопки мыши."
 	}
 
 	EnableBowChargeHovering: {
-		// DisplayName: "Enable Bow Charge Hovering"
-		// Description: "When enabled, archers will be able to temporarily hover in mid-air by charging a bow and holding the jump button."
+		// DisplayName: "Включить зависание при зарядке лука"
+		// Description: "При включении лучники смогут временно зависать в воздухе, заряжая лук и удерживая кнопку прыжка."
 	}
 
 	EnableBowHoverJumps: {
-		// DisplayName: "Enable Bow Hover Jumps"
-		// Description: "When enabled, bows will launch archers when firing during a hover charge, acting as a double jump."
+		// DisplayName: "Включить прыжки при зависании и выстреле"
+		// Description: "При включении выстрел из лука во время зависания запустит лучника в воздух, действуя как двойной прыжок."
 	}
 
 	EnableArcheryArrowVisualization: {
-		// DisplayName: "Enable Archery Arrow Visualization"
-		// Description: "When enabled, arrows will be visible on bows and repeaters before they're fired."
+		// DisplayName: "Включить визуализацию стрел"
+		// Description: "При включении стрелы будут видны на луках и арбалетах до выстрела."
 	}
 }
 
 Awareness: {
-	// DisplayName: "Awareness"
+	// DisplayName: "Осведомленность"
 	/* Description:
 		'''
-		Overhaul implements multiple features that help increase players' awareness of their characters' state,
-		also improving immersion in the process.
+		Overhaul реализует несколько функций, которые помогают игрокам лучше понимать состояние их персонажей, а также повышают погружение в игру.
 		''' */
 
 	EnableHealthPickupSounds: {
-		// DisplayName: "Enable New Health Pickup Audio"
-		// Description: "If enabled, new immersive sound effects will be used for health pickups."
+		// DisplayName: "Включить новые звуки подбора здоровья"
+		// Description: "При включении будут использоваться новые атмосферные звуковые эффекты при подборе здоровья."
 	}
 
 	EnableManaPickupSounds: {
-		// DisplayName: "Enable New Mana Pickup Audio"
-		// Description: "If enabled, new immersive sound effects will be used for mana pickups."
+		// DisplayName: "Включить новые звуки подбора маны"
+		// Description: "При включении будут использоваться новые атмосферные звуковые эффекты при подборе маны."
 	}
 
 	LowHealthFilteringIntensity: {
-		// DisplayName: "Low Health Filtering Intensity"
-		// Description: "Controls the intensity of low pass audio filtering (muffling) that occurs when you are low on health."
+		// DisplayName: "Интенсивность фильтрации при низком здоровье"
+		// Description: "Регулирует силу приглушения звука (низкочастотный фильтр), которое происходит при низком уровне здоровья."
 	}
 
 	LowHealthSoundVolume: {
-		// DisplayName: "Low Health Sound Volume"
-		// Description: "Controls the volume of the sound that plays when you are low on health."
+		// DisplayName: "Громкость звука при низком здоровье"
+		// Description: "Регулирует громкость звука, который проигрывается при низком уровне здоровья."
 	}
 
 	LowManaSoundVolume: {
-		// DisplayName: "Low Mana Sound Volume"
-		// Description: "Controls the volume of the sound that plays when you are low on mana."
+		// DisplayName: "Громкость звука при низкой мане"
+		// Description: "Регулирует громкость звука, который проигрывается при низком уровне маны."
 	}
 
 	ManaRegenerationSoundVolume: {
-		// DisplayName: "Mana Regeneration Sound Volume"
-		// Description: "Controls the volume of the sound that plays when mana is regenerating."
+		// DisplayName: "Громкость звука регенерации маны"
+		// Description: "Регулирует громкость звука, который проигрывается при восстановлении маны."
 	}
 }
 
 Balance: {
-	// DisplayName: "Balance & Difficulty"
-	// Description: "Overhaul implements multiple changes to game balance, and strives to turn game modes to into proper difficulty levels."
+	// DisplayName: "Баланс и сложность"
+	// Description: "Overhaul вносит множество изменений в баланс игры и стремится превратить игровые режимы в настоящие уровни сложности."
 
 	EnableBannerRework: {
-		// DisplayName: "Enable Banner Rework"
+		// DisplayName: "Включить переработку знамен"
 		/* Description:
 			'''
-			The banner rework removes banners' effects of lowering enemies' health and damage, instead replacing that with double loot and coin drops.
-			Both the drop chance and drop quantity are affected.
+			Переработка знамен убирает их эффект снижения здоровья и урона врагов, заменяя его на двойной дроп добычи и монет. Повышается как шанс выпадения, так и количество дропа.
 			''' */
 	}
 
 	EnableCriticalStrikeRework: {
-		// DisplayName: "Enable Critical Strike Rework"
+		// DisplayName: "Включить переработку критических ударов"
 		/* Description:
 			'''
-			The critical strike rework replaces random critical strikes with a consistent system of enemy weakpoints, hitting which guarantees critical damage, most weakpoints being enemies' backs'.
-			Critical Strike Chance stat is replaced with Critical Strike Damage, directly increasing effectiveness of the mechanic.
-			Dodgerolls integrate with this, confusing enemies you roll through and thus delaying their direction change.
+			Переработка критических ударов заменяет случайные криты на систему уязвимых мест врагов, попадание по которым гарантирует критический урон — чаще всего это спины врагов.
+			Стат «шанс крита» заменяется на «критический урон», напрямую повышая эффективность механики.
+			Роллы (уклонения) сбивают врагов с толку и задерживают смену ими направления.
 			''' */
 	}
 
 	EnableDifficultyChanges: {
-		// DisplayName: "Enable Difficulty Changes"
-		// Description: "Toggles the mod's changes to difficulty levels as a whole."
+		// DisplayName: "Включить изменения сложности"
+		// Description: "Включает изменения мода, затрагивающие уровни сложности в целом."
 	}
 
 	EnableConsistentDifficulty: {
-		// DisplayName: "Enable Consistent Difficulty"
-		// Description: "If enabled, behaviors from higher level difficulties will be present in lower ones. It is recommended that you keep this on, unless a compatibility issue is encountered."
+		// DisplayName: "Включить согласованную сложность"
+		// Description: "Если включено, поведение врагов из более высоких уровней сложности будет присутствовать и на низких. Рекомендуется оставлять включённым, если нет проблем с совместимостью."
 	}
 
 	EnableDamageRandomizationRemoval: {
-		// DisplayName: "Enable Damage Randomization Removal"
-		// Description: "When enabled, all damage numbers in the game will be made fair and predictable."
+		// DisplayName: "Убрать рандомизацию урона"
+		// Description: "При включении все значения урона в игре будут честными и предсказуемыми."
 	}
 
 	EnableHealthDropsRework: {
-		// DisplayName: "Enable Health Drops Rework"
-		// Description: "When enabled, random health drops on enemy deaths are replaced with small guaranteed ones, with the amount depending on the closest players' health."
+		// DisplayName: "Переработка дропа здоровья"
+		// Description: "Случайные дропы здоровья с врагов заменяются гарантированными небольшими исцелениями, размер которых зависит от здоровья ближайших игроков."
 	}
 
 	EnableManaDropsRework: {
-		// DisplayName: "Enable Mana Drops Rework"
-		// Description: "When enabled, random mana drops on enemy deaths are replaced with enemies dropping mana over time as they receive damage, as long as a nearby player is not on full mana."
+		// DisplayName: "Переработка дропа маны"
+		// Description: "Враги вместо случайных дропов маны будут постепенно выпускать ману по мере получения урона, если рядом есть игрок, у которого мана не полная."
 	}
 }
 
 BloodAndGore: {
-	// DisplayName: "Blood and Gore"
+	// DisplayName: "Кровь и насилие"
 	/* Description:
 		'''
-		Overhaul improves violence-related audio, visuals, and interactivity,
-		vastly increasing the overall satisfaction level of the game's combat.
+		Overhaul улучшает аудио, визуальные эффекты и интерактивность, связанные с насилием,
+		что значительно повышает удовольствие от боёв в игре.
 		''' */
 
 	EnableDecals: {
@@ -217,418 +215,418 @@ BloodAndGore: {
 	}
 
 	EnableGoreStay: {
-		// DisplayName: "Enable Gore Stay"
-		// Description: "When enabled, gore (or more specifically 'gibs') will not disappear after ~10 seconds."
+		// DisplayName: "Задержка останков"
+		// Description: "Если включено, останки (гибы) не исчезают примерно в течение 10 секунд."
 	}
 
 	EnablePlayerCharacterGore: {
-		// DisplayName: "Enable Player Character Gore"
-		// Description: "When enabled, player characters will create dynamically-generated gore on death, instead of having their bits fly off-screen."
+		// DisplayName: "Кровавые эффекты для персонажа"
+		// Description: "Если включено, при смерти персонажа создаются динамические кровавые эффекты вместо разлёта частей тела."
 	}
 
 	EnableAdvancedParticles: {
-		// DisplayName: "Enable Advanced Particles"
-		// Description: "When enabled, vanilla blood & similar particles will be replaced with Overhaul's advanced linear particles, which are able to leave decals."
+		// DisplayName: "Улучшенные частицы"
+		// Description: "Если включено, стандартные частицы крови и подобные им заменяются продвинутыми линейными частицами Overhaul, которые могут оставлять декали."
 	}
 
 	EnableGoreAudio: {
-		// DisplayName: "Enable Gore Audio"
-		// Description: "Whether interactions with gores can produce sounds."
+		// DisplayName: "Звуки насилия"
+		// Description: "Включает звуки взаимодействия с кровавыми эффектами."
 	}
 
 	EnableGoreGibbing: {
-		// DisplayName: "Enable Gore Gibbing"
-		// Description: "Whether gores can be destroyed, with some breaking into smaller pieces."
+		// DisplayName: "Разрушение останков"
+		// Description: "Позволяет разрушать кровавые останки, некоторые из которых разлетаются на мелкие кусочки."
 	}
 
 	EnableGorePhysics: {
-		// DisplayName: "Enable Gore Physics"
-		// Description: "Whether gores (& similar clutter, like bullet casings) can bounce and float in water."
+		// DisplayName: "Физика останков"
+		// Description: "Позволяет кровавым останкам и подобным объектам (например, гильзам) отскакивать и плавать в воде."
 	}
 
 	EnableGoreBleeding: {
-		// DisplayName: "Enable Gore Bleeding"
-		// Description: "Whether gores can spawn particles when flying through the air."
+		// DisplayName: "Кровотечение останков"
+		// Description: "Позволяет останкам выпускать частицы крови, когда они летят в воздухе."
 	}
 
 	EnableGoreBurning: {
-		// DisplayName: "Enable Gore Burning"
-		// Description: "Whether gores can be set on fire."
+		// DisplayName: "Поджигание останков"
+		// Description: "Позволяет кровавым останкам загореться."
 	}
 
 	ParticleMultiplierSafe: {
-		// DisplayName: "Particle Spawn Rate (Safe)"
-		// Description: "If set below 1.0 - reduces the amount of normal (non-bloody) particles. Set to '0.0' to completely disable them."
+		// DisplayName: "Коэффициент частиц (безопасный)"
+		// Description: "Если значение меньше 1.0 — уменьшает количество обычных (не кровавых) частиц. Установка в 0.0 полностью отключит их."
 	}
 
 	ParticleMultiplierViolent: {
-		// DisplayName: "Particle Spawn Rate (Violent)"
-		// Description: "If set below 1.0 - reduces the amount of blood particles. Set to '0.0' to completely disable them."
+		// DisplayName: "Коэффициент частиц (насильственный)"
+		// Description: "Если значение меньше 1.0 — уменьшает количество кровавых частиц. Установка в 0.0 полностью отключит их."
 	}
 }
 
 Bosses: {
-	// DisplayName: "Bosses"
-	// Description: "Overhaul implements many audiovisual reworks to make boss battles more cinematic and intimidating."
+	// DisplayName: "Боссы"
+	// Description: "Overhaul включает множество аудио- и визуальных переработок, делающих сражения с боссами более кинематографичными и устрашающими."
 
 	EnableDestroyerEffects: {
-		// DisplayName: "Enable Destroyer Effects"
-		// Description: "When enabled, The Destroyer boss will receive new audiovisual effects."
+		// DisplayName: "Включить эффекты Разрушителя"
+		// Description: "При включении босс Разрушитель получит новые аудио- и визуальные эффекты."
 	}
 
 	EnableDestroyerMakeover: {
-		// DisplayName: "Enable Destroyer Makeover"
-		// Description: "When enabled, The Destroyer boss will receive a new massive spritework. Affects gameplay."
+		// DisplayName: "Включить новый облик Разрушителя"
+		// Description: "При включении Разрушитель получит новый масштабный спрайт. Влияет на игровой процесс."
 	}
 
 	EnableEaterOfWorldsEffects: {
-		// DisplayName: "Enable Eater Of Worlds Effects"
-		// Description: "When enabled, The Eater of Worlds boss will receive new audiovisual effects."
+		// DisplayName: "Включить эффекты Пожирателя Миров"
+		// Description: "При включении босс Пожиратель Миров получит новые аудио- и визуальные эффекты."
 	}
 
 	EnableEyeOfCthulhuEffects: {
-		// DisplayName: "Enable Eye Of Cthulhu Effects"
-		// Description: "When enabled, The Eye of Cthulhu boss will receive new audiovisual effects."
+		// DisplayName: "Включить эффекты Глаза Ктулху"
+		// Description: "При включении босс Глаз Ктулху получит новые аудио- и визуальные эффекты."
 	}
 }
 
 Camera: {
-	// DisplayName: "Camera"
-	// Description: "Overhaul implements many camera features that highly improve how the game presents itself."
+	// DisplayName: "Камера"
+	// Description: "Overhaul реализует множество функций камеры, значительно улучшающих подачу игры."
 
 	CameraSmoothness: {
-		// DisplayName: "Camera Smoothness"
+		// DisplayName: "Плавность камеры"
 		/* Description:
 			'''
-			How much damping to apply to the camera's movement to improve the feel of velocity.
-			Set this to zero to disable the feature completely.
+			Насколько сильно применять демпфирование к движению камеры для улучшения ощущения скорости.
+			Установите в ноль, чтобы полностью отключить функцию.
 			''' */
 	}
 
 	LimitCameraUpdateRate: {
-		// DisplayName: "Limit Camera Update Rate"
+		// DisplayName: "Ограничить частоту обновления камеры"
 		/* Description:
 			'''
-			When enabled, the camera update rate is locked to 60hz to prevent the player character spazzing out on high refresh rate monitors.
-			It's currently best that you leave this on.
+			При включении частота обновления камеры фиксируется на 60 Гц, чтобы избежать резких движений персонажа на мониторах с высокой частотой обновления.
+			Рекомендуется оставить эту настройку включённой.
 			''' */
 	}
 
 	ScreenShakeStrength: {
 		DisplayName: "Сила тряски камеры"
-		Description: "Управление силой тряски. Установите на ноль, чтобы полностью отключить любую тряску."
-	}
+		Description: "Управляет интенсивностью тряски камеры. Установите в 0, чтобы отключить тряску полностью."
+}
 
 	FocusCameraOnBosses: {
-		// DisplayName: "Focus Camera On Bosses"
-		// Description: "If enabled, the camera will subtly hint towards the nearest alive boss."
-	}
+		// DisplayName: "Фокус камеры на боссах"
+		// Description: "Если включено, камера будет слегка смещаться в сторону ближайшего живого босса."
+}
 
 	FocusCameraOnBossEvents: {
-		// DisplayName: "Focus Camera On Boss Events"
-		// Description: "If enabled, the camera will focus at boss entrances, transformations, and deaths."
-	}
+		// DisplayName: "Фокус камеры на событиях с боссами"
+		// Description: "Если включено, камера будет фокусироваться на появлении, трансформации и смерти босса."
+}
 
 	FocusCameraOnDialogues: {
-		// DisplayName: "Focus Camera On Dialogues"
-		// Description: "If enabled, the camera will zoom-in and focus on the NPC when the player speaks with one'."
-	}
+		// DisplayName: "Фокус камеры на диалогах"
+		// Description: "Если включено, камера будет приближаться и фокусироваться на NPC во время разговора с игроком."
+}
 
 	FocusCameraOnPlayerDeath: {
-		// DisplayName: "Focus Camera On Player Death"
-		// Description: "If enabled, the camera will zoom-in and focus on the local player's remains until they respawn."
-	}
+		// DisplayName: "Фокус камеры на смерти игрока"
+		// Description: "Если включено, камера будет приближаться и фокусироваться на останках игрока до его возрождения."
+}
 
 	FocusCameraOnRareEnemies: {
-		// DisplayName: "Focus Camera On Rare Enemies"
-		// Description: "If enabled, the camera will subtly hint towards the nearest rare enemy."
-	}
+		// DisplayName: "Фокус камеры на редких врагах"
+		// Description: "Если включено, камера будет слегка смещаться в сторону ближайшего редкого врага."
+}
 
 	FocusCameraOnRareFriendlies: {
-		// DisplayName: "Focus Camera On Rare Friendlies"
-		// Description: "If enabled, the camera will subtly hint towards the nearest bound NPC or rare critter."
-	}
+		// DisplayName: "Фокус камеры на редких союзниках"
+		// Description: "Если включено, камера будет слегка смещаться в сторону ближайшего связанного NPC или редкого питомца."
+}
 
 	FocusCameraOnRarePickups: {
-		// DisplayName: "Focus Camera On Rare Loot"
-		// Description: "If enabled, the camera will subtly hint towards the nearest rare loot."
+		// DisplayName: "Фокус камеры на редких предметах"
+		// Description: "Если включено, камера будет слегка смещаться в сторону ближайших редких дропов."
 	}
 }
 
 Enemies: {
-	// DisplayName: "Enemies"
-	// Description: "Overhaul contains a few additions to the game's enemies' behavior that aim to make fighting them a little bit more fun."
+	// DisplayName: "Враги"
+	// Description: "Overhaul добавляет несколько новых особенностей в поведение врагов, чтобы сделать сражения с ними более интересными."
 
 	EnableEnemyLunges: {
-		// DisplayName: "Enable Enemy Lunges"
-		// Description: "When enabled, walking enemies may lunge at you when they get close."
+		// DisplayName: "Включить рывки врагов"
+		// Description: "При включении враги, передвигающиеся пешком, могут делать резкие рывки в вашу сторону, когда приблизятся."
 	}
 
 	EnableNormalEnemyEffects: {
-		// DisplayName: "Enable Normal Enemy Effects"
-		// Description: "When enabled, various common enemies will receive new audiovisual effects."
+		// DisplayName: "Включить стандартные эффекты врагов"
+		// Description: "При включении обычные враги получат новые аудиовизуальные эффекты."
 	}
 }
 
 Guns: {
-	// DisplayName: "Guns"
-	// Description: "Overhaul heavily focuses on improving gameplay and feel of the game's firearms."
+	// DisplayName: "Оружие"
+	// Description: "Overhaul сильно улучшает игровой процесс и ощущения от использования огнестрельного оружия."
 
 	EnableAimingRecoil: {
-		// DisplayName: "Enable Aiming Recoil (Experimental)"
+		// DisplayName: "Включить отдачу при прицеливании (Экспериментально)"
 		/* Description:
 			'''
-			When enabled, guns may offset the player's cursor when fired.
-			Experimental feature, disabled by default.
+			При включении оружие может смещать курсор игрока при выстреле.
+			Экспериментальная функция, по умолчанию выключена.
 			''' */
 	}
 
 	EnableBulletImpactAudio: {
-		// DisplayName: "Enable Bullet Impact Audio"
-		// Description: "When enabled, bullet-like projectiles produce a new sound when hitting the ground."
+		// DisplayName: "Включить звук попадания пуль"
+		// Description: "При включении пули и похожие снаряды будут издавать новый звук при попадании в землю."
 	}
 
 	EnableGunSoundReplacements: {
-		// DisplayName: "Enable Gun Sound Replacements"
-		// Description: "When enabled, all guns affected by Overhaul will receive new satisfying sound effects."
+		// DisplayName: "Включить замену звуков оружия"
+		// Description: "При включении все оружия, затронутые Overhaul, получат новые приятные звуковые эффекты."
 	}
 
 	EnableAlternateGunFiringModes: {
-		// DisplayName: "Enable Alternate Gun Firing Modes"
-		// Description: "When enabled, some guns will get new alternate firing modes."
+		// DisplayName: "Включить альтернативные режимы стрельбы"
+		// Description: "При включении некоторые виды оружия получат новые альтернативные режимы стрельбы."
 	}
 
 	EnableBulletCasings: {
-		// DisplayName: "Enable Bullet Casings"
-		// Description: "When enabled, some weapons will emit ammo casings that fit them."
+		// DisplayName: "Включить выброс гильз"
+		// Description: "При включении некоторые оружия будут выбрасывать соответствующие гильзы."
 	}
 
 	EnableMuzzleflashes: {
-		// DisplayName: "Enable Muzzleflashes"
-		// Description: "When enabled, firing weapons will produce pretty muzzleflashes."
+		// DisplayName: "Включить вспышки дульного пламени"
+		// Description: "При включении при выстреле будет появляться красивая вспышка дульного пламени."
 	}
 
 	EnableMinigunDynamicFireRate: {
-		// DisplayName: "Enable Minigun Dynamic Firerate"
-		// Description: "When enabled, minigun-like weapons will speed up as they continue to fire."
+		// DisplayName: "Включить динамическую скорострельность для минигана"
+		// Description: "При включении оружие типа минигана будет ускоряться при длительной стрельбе."
 	}
 
 	EnableMinigunRecoilHovering: {
-		// DisplayName: "Enable Minigun Recoil Hovering"
-		// Description: "When enabled, minigun-like weapons will allow players to slightly hover in the air by firing downwards."
+		// DisplayName: "Включить зависание при отдаче минигана"
+		// Description: "При включении оружие типа минигана позволит игрокам немного зависать в воздухе, стреляя вниз."
 	}
 
 	EnableStarCannonDynamicFireRate: {
-		// DisplayName: "Enable Star Cannon Dynamic Firerate"
-		// Description: "When enabled, the Star Cannon (and similar weapons) will speed up as they continue to fire."
+		// DisplayName: "Включить динамическую скорострельность для Звездного Пушки"
+		// Description: "При включении Звездная Пушка (и похожие оружия) будет ускоряться при длительной стрельбе."
 	}
 
 	EnableStarCannonRecoilHovering: {
-		// DisplayName: "Enable Star Cannon Recoil Hovering"
-		// Description: "When enabled, the Star Cannon (and similar weapons) will allow players to slightly hover in the air by firing downwards."
+		// DisplayName: "Включить зависание при отдаче Звездной Пушки"
+		// Description: "При включении Звездная Пушка (и похожие оружия) позволит игрокам немного зависать в воздухе, стреляя вниз."
 	}
 }
 
 Interface: {
-	// DisplayName: "Interface"
-	// Description: "Everything relating to Graphical User Interface and Heads-Up Displays."
+	// DisplayName: "Интерфейс"
+	// Description: "Все, что связано с графическим интерфейсом и элементами HUD."
 
 	EnableCrosshair: {
-		// DisplayName: "Enable Crosshair"
-		// Description: "When enabled, the mouse cursor will be replaced with an advanced animated crosshair when using projectile-firing weapons."
+		// DisplayName: "Включить прицел"
+		// Description: "При включении курсор мыши будет заменён на продвинутый анимированный прицел при использовании оружия с метательными снарядами."
 	}
 
 	EnableCrosshairAnimations: {
-		// DisplayName: "Enable Crosshair Animations"
-		// Description: "Whether the crosshair should animate in reaction to weapons firing and going on cooldowns."
+		// DisplayName: "Включить анимацию прицела"
+		// Description: "Включает анимацию прицела в ответ на стрельбу и время восстановления оружия."
 	}
 
 	CrosshairScale: {
-		// DisplayName: "Crosshair Scale"
-		// Description: "Controls the crosshair's size, allowing you to make it larger if you want."
+		// DisplayName: "Масштаб прицела"
+		// Description: "Регулирует размер прицела, позволяя сделать его больше при необходимости."
 	}
 }
 
 Magic: {
-	// DisplayName: "Magic"
+	// DisplayName: "Магия"
 
 	EnableMagicSoundReplacements: {
-		// DisplayName: "Enable Magic Sound Replacements"
-		// Description: "Whether to give new sound effects to some magic weapons."
+		// DisplayName: "Включить замену звуков магии"
+		// Description: "Включает новые звуковые эффекты для некоторых магических оружий."
 	}
 
 	EnableMagicPowerAttacks: {
-		// DisplayName: "Enable Magic Power Attacks"
-		// Description: "When enabled, most magic weapons will be able to perform a charged attack via alternate use."
+		// DisplayName: "Включить мощные атаки магии"
+		// Description: "При включении большинство магических оружий смогут выполнять зарядную атаку при альтернативном использовании."
 	}
 
 	EnableManaRegenerationRework: {
-		// DisplayName: "Enable Mana Regeneration Rework"
-		// Description: "When enabled, mana regeneration logic will be reworked and rebalanced to encourage movement."
+		// DisplayName: "Включить переработку регенерации маны"
+		// Description: "Перерабатывает и балансирует логику регенерации маны, чтобы стимулировать движение игрока."
 	}
 
 	EnableManaRegenerationIcon: {
-		// DisplayName: "Enable Mana Regeneration Icon"
+		// DisplayName: "Показывать иконку регенерации маны"
 		/* Description:
 			'''
-			Whether to show the 'Mana Absorption' buff icon when magic weapon are equipped.
-			This option does not affect gameplay.
+			Показывать иконку баффа «Поглощение маны» при экипировке магического оружия.
+			Этот параметр не влияет на игровой процесс.
 			''' */
 	}
-}
+}	
 
 Melee: {
-	// DisplayName: "Melee"
-	// Description: "Overhaul completely reimagines the feel and flow of the game's melee weapons, allowing you to hack and slash like never before!"
+	// DisplayName: "Ближний бой"
+	// Description: "Overhaul полностью переосмысливает ощущения и динамику ближнего боя, позволяя рубить и кромсать как никогда раньше!"
 
 	EnableMeleeAirCombat: {
-		// DisplayName: "Enable Air Combat"
+		// DisplayName: "Включить воздушный бой"
 		/* Description:
 			'''
-			Toggles melee air combat, which allows you to accelerate yourself in any direction using movement keys every time you hit an enemy mid-air.
-			Use your foes as stepladders; Chain attacks on flying enemies; Gain greater momentum to fall-strike ground brutes.
+			Включает воздушный ближний бой, который позволяет ускорять себя в любом направлении с помощью клавиш движения при каждом ударе врага в воздухе.
+			Используйте врагов как ступеньки; цепляйте атаки по летающим противникам; получайте больший импульс для ударов сверху по наземным врагам.
 			''' */
 	}
 
 	EnableProjectileSwordManaUsage: {
-		// DisplayName: "Enable Projectile Sword Mana Usage"
+		// DisplayName: "Включить использование маны мечами с проектилями"
 		/* Description:
 			'''
-			Experimental.
-			When enabled, broadswords that shoot projectiles will use a bit of mana.
-			Mages' mana regeneration and mana drop rules still apply, so this isn't very significant.
+			Экспериментальная функция.
+			Когда включена, мечи, выпускающие снаряды, будут использовать немного маны.
+			Правила регенерации маны и выпадения маны для магов сохраняются, так что влияние небольшое.
 			''' */
 	}
 
 	EnableMeleeSwingVelocity: {
-		// DisplayName: "Enable Swing Velocity"
+		// DisplayName: "Включить ускорение при взмахе"
 		/* Description:
 			'''
-			When enabled, swinging a melee weapon can accelerate you towards the direction of the swing.
-			This can be further controlled using movement keys, as you'll never be thrown forward when you're holding back movement.
-			Use together with power attacks to significantly boost your jumps and damage.
+			При включении взмах оружием может ускорять вас в направлении удара.
+			Можно дополнительно контролировать это с помощью клавиш движения — вы не будете двигаться вперед, если удерживаете движение назад.
+			Используйте вместе с мощными атаками для значительного усиления прыжков и урона.
 			''' */
 	}
 
 	EnableAxePowerAttacks: {
-		// DisplayName: "Enable Axe Power Attacks"
-		// Description: "Toggles the ability to perform charged power attacks with axes via right clicking."
+		// DisplayName: "Включить мощные атаки топором"
+		// Description: "Позволяет выполнять заряженные мощные атаки топорами через правый клик."
 	}
 
 	EnableBroadswordPowerAttacks: {
-		// DisplayName: "Enable Broadsword Power Attacks"
-		// Description: "Toggles the ability to perform charged power attacks with broadswords via right clicking."
+		// DisplayName: "Включить мощные атаки двуручником"
+		// Description: "Позволяет выполнять заряженные мощные атаки двуручниками через правый клик."
 	}
 
 	EnableHammerPowerAttacks: {
-		// DisplayName: "Enable Hammer Power Attacks"
-		// Description: "Toggles the ability to perform charged power attacks with hammers via right clicking."
+		// DisplayName: "Включить мощные атаки молотом"
+		// Description: "Позволяет выполнять заряженные мощные атаки молотами через правый клик."
 	}
 
 	EnableMeleeKillingBlows: {
-		// DisplayName: "Enable Melee Killing Blows"
-		// Description: "When enabled, broadswords will be able to perform 'Killing Blows' by power-striking already hurt foes, increasing damage whenever that would finish the enemy."
+		// DisplayName: "Включить добивающие удары"
+		// Description: "При включении двуручные мечи смогут выполнять «добивающие удары», увеличивая урон по уже раненым врагам, если этот удар убивает их."
 	}
 
 	EnableMeleeAttackAiming: {
-		// DisplayName: "Enable Melee Attack Aiming"
+		// DisplayName: "Включить прицеливание ближнего боя"
 		/* Description:
 			'''
-			When enabled, melee weapons will become fully aimable.
-			Requires the 'Enable Improved Melee Collision' option to be enabled to actually affect gameplay.
+			При включении оружие ближнего боя станет полностью прицеливаемым.
+			Для работы требуется включить «Enable Improved Melee Collision».
 			''' */
 	}
 
 	EnableImprovedMeleeCollision: {
-		// DisplayName: "Enable Improved Melee Collision"
+		// DisplayName: "Включить улучшенную коллизию ближнего боя"
 		/* Description:
 			'''
-			When enabled, melee weapons' collision will be changed from a static rectangle to that of a circular arc.
-			Enabling the 'Enable Melee Attack Aiming' option is heavily recommended.
+			При включении коллизия ближнего боя изменится с прямоугольника на дугу.
+			Рекомендуется включить вместе с «Enable Melee Attack Aiming».
 			''' */
 	}
 
 	EnableMeleeVelocityBasedDamage: {
-		// DisplayName: "Enable Melee Velocity Based Damage"
-		// Description: "When enabled, all your melee damage will be affected by how fast you're moving."
+		// DisplayName: "Включить урон от скорости ближнего боя"
+		// Description: "При включении урон ближнего боя зависит от вашей скорости движения."
 	}
 
 	EnableMeleeVelocityBasedDamageIcon: {
-		// DisplayName: "Enable Melee Velocity Based Damage Icon"
+		// DisplayName: "Показывать иконку урона от скорости"
 		/* Description:
 			'''
-			Whether to show the 'Hack and Slash' buff icon when broadswords are equipped.
-			This option does not affect gameplay.
+			Показывать иконку баффа «Руби и кромсай» при экипировке двуручного меча.
+			Не влияет на геймплей.
 			''' */
 	}
 
 	EnableAxeSoundReplacements: {
-		// DisplayName: "Enable Axe Sound Replacements"
-		// Description: "Whether to give new sound effects to axes."
+		// DisplayName: "Включить замену звуков топора"
+		// Description: "Включает новые звуковые эффекты для топоров."
 	}
 
 	EnableBroadswordSoundReplacements: {
-		// DisplayName: "Enable Broadsword Sound Replacements"
-		// Description: "Whether to give new sound effects to broadswords."
+		// DisplayName: "Включить замену звуков двуручника"
+		// Description: "Включает новые звуковые эффекты для двуручных мечей."
 	}
 
 	EnableHammerSoundReplacements: {
-		// DisplayName: "Enable Hammer Sound Replacements"
-		// Description: "Whether to give new sound effects to hammers."
+		// DisplayName: "Включить замену звуков молота"
+		// Description: "Включает новые звуковые эффекты для молотов."
 	}
 
 	EnablePickaxeSoundReplacements: {
-		// DisplayName: "Enable Pickaxe Sound Replacements"
-		// Description: "Whether to give new sound effects to pickaxes."
+		// DisplayName: "Включить замену звуков кирки"
+		// Description: "Включает новые звуковые эффекты для кирок."
 	}
 }
 
 Music: {
-	// DisplayName: "Music"
+	// DisplayName: "Музыка"
 	/* Description:
 		'''
-		Overhaul contains a few improvements to the game's music playback behavior.
-		There's also a whole remastered soundtrack made for it - Click the button in top left to get it!
+		Overhaul включает несколько улучшений в поведении воспроизведения музыки в игре.
+		Также для него создан целый ремастеринг саундтрека — нажмите кнопку в левом верхнем углу, чтобы получить его!
 		''' */
 
 	EnableMusicPlaybackPositionPreservation: {
-		// DisplayName: "Enable Music Playback Position Preservation"
+		// DisplayName: "Сохранять позицию воспроизведения музыки"
 		/* Description:
 			'''
-			When enabled, music tracks will always pause in place of stopping.
-			This means that whenever you come back to a biome you've already been at, its music will resume playing where it has been whenever you left it.
-			Greatly improves game feel, since you won't be stuck hearing music tracks' intros when moving around the world.
+			При включении музыкальные треки будут всегда ставиться на паузу, а не останавливаться.
+			Это означает, что когда вы вернётесь в биом, в котором уже были, музыка возобновится с того места, на котором вы её покинули.
+			Сильно улучшает ощущение игры, так как вы не будете снова слушать интро треков при перемещении по миру.
 			''' */
 	}
 
 	AlwaysRestartBossMusicTracks: {
-		// DisplayName: "Always Restart Boss Music Tracks"
-		// Description: "If enabled together with Music Playback Position Preservation, boss music tracks will not be affected by it."
+		// DisplayName: "Всегда перезапускать музыку боссов"
+		// Description: "Если включено вместе с сохранением позиции воспроизведения, музыка боссов не будет сохранять позицию, а будет всегда начинаться заново."
 	}
 
 	AlwaysRestartedMusicTracks: {
-		// DisplayName: "Always Restarted Music Tracks"
-		// Description: "A list of music tracks to exclude from Music Playback Position Preservation."
+		// DisplayName: "Всегда перезапускаемые треки"
+		// Description: "Список музыкальных треков, исключённых из сохранения позиции воспроизведения музыки."
 	}
 
 	EnableBossDeathMusicStop: {
-		// DisplayName: "Enable Boss Death Music Stop"
-		// Description: "When enabled, music will be temporarily stopped whenever a boss is killed. For a dramatic effect."
+		// DisplayName: "Останавливать музыку при смерти босса"
+		// Description: "При включении музыка временно останавливается, когда босс убит. Для драматического эффекта."
 	}
 
 	PlayBossDeathTransitionCue: {
-		// DisplayName: "Play Boss Death Transition Cue"
-		// Description: "If enabled, a cinematic sound will play when the last alive boss is defeated."
+		// DisplayName: "Воспроизводить звуковой эффект перехода при смерти босса"
+		// Description: "При включении проигрывается кинематографический звук при убийстве последнего живого босса."
 	}
 }
 
 Movement: {
-	// DisplayName: "Movement"
-	// Description: "Overhaul greatly improves and refreshes almost every aspect of moving around, which you do a lot of."
+	// DisplayName: "Передвижение"
+	// Description: "Overhaul значительно улучшает и обновляет практически каждый аспект перемещения, которым вы занимаетесь очень часто."
 
 	EnableAutoJump: {
-		// DisplayName: "Enable Auto Jump"
-		// Description: "When enabled, players will always be able to hold down the space key to jump repeatedly."
+		// DisplayName: "Включить автоматический прыжок"
+		// Description: "При включении игроки смогут удерживать клавишу пробела для постоянных повторных прыжков."
 	}
 
 	EnableVerticalAccelerationChanges: {
@@ -656,12 +654,12 @@ Movement: {
 	}
 
 	EnableGrapplingHookPhysics: {
-		// DisplayName: "Enable Grappling Hook Physics"
+		// DisplayName: "Включить физику гарпуна"
 		/* Description:
 			'''
-			When enabled, grappling hooks' behavior will be changed to allow swinging around on them using movement keys.
-			NOTE: The grappling hook button can be held down to execute a vanilla-like pull, so you don't need to choose between the two behaviors and can combine them.
-			NOTE: This feature does not apply to every hook in the game, also multihooks revert to vanilla behavior whenever more than one hook is connected.
+			При включении поведение гарпунов изменится, позволяя раскачиваться на них с помощью клавиш движения.
+			ПРИМЕЧАНИЕ: Кнопку гарпуна можно удерживать для выполнения стандартного притягивания, так что нет необходимости выбирать между двумя режимами — их можно комбинировать.
+			ПРИМЕЧАНИЕ: Эта функция не применяется ко всем гарпунам в игре, а мультигарпуны возвращаются к стандартному поведению, если подключено более одного крюка.
 			''' */
 	}
 
@@ -684,12 +682,12 @@ Movement: {
 	}
 
 	EnableRollJumps: {
-		// DisplayName: "Enable Roll Jumps"
-		// Description: "When enabled, the players will be able to perform a 'Roll Jump' by combining a landing jump (bunnyhop) with a well-timed dodgeroll."
+		// DisplayName: "Включить прыжки с кувырком"
+		// Description: "ри включении игроки смогут выполнять 'Прыжок с кувырком', сочетая приземление с прыжком (бани-хоп) и хорошо рассчитанный уклоняющийся кувырок."
 	}
 
 	EnableDodgerolls: {
-		// DisplayName: "Enable Dodgerolls"
+		// DisplayName: "Включить уклоняющиеся кувырки"
 		/* Description:
 			'''
 			When enabled, players will be able to perform a dodgeroll via an assigned button.
@@ -699,73 +697,73 @@ Movement: {
 
 	EnableDodgerollAudioCues: {
 		// DisplayName: "Enable Dodgeroll Audio Cues"
-		// Description: "Toggles sounds that denote that a dodgeroll charge has been refilled, or that there's no charges left."
+		// Description: "При включении игроки смогут выполнять уклоняющийся кувырок, используя назначенную кнопку. Кувырки дают кратковременную неуязвимость и множество возможностей для движения."
 	}
 }
 
 Visuals: {
-	// DisplayName: "Visuals"
-	// Description: "Overhaul contains a few improvements to player characters' visual appearance, so that the game feels more responsive."
+	// DisplayName: "Визуальные эффекты"
+	// Description: "Overhaul включает несколько улучшений визуального вида персонажей игроков, чтобы игра казалась более отзывчивой."
 
 	AlwaysShowAimableWeapons: {
 		DisplayName: "Всегда показывать направляемое оружие"
-		Description: "Переключение постоянного отображения оружия с стилем использования как у огнестрельного, даже вне использования."
+		Description: "Переключает постоянное отображение оружия с поведением, похожим на огнестрельное, даже когда оно не используется."
 	}
 
 	EnableImprovedMeleeAnimations: {
-		// DisplayName: "Enable Improved Melee Animations"
+		// DisplayName: "Включить улучшенную анимацию ближнего боя"
 		/* Description:
 			'''
-			When enabled, melee weapon swing animations will be changed to a more immediate swing, with alternating directions.
-			This is best kept on, as it best mimics the timing and direction of melee damage collision.
+			При включении анимации взмаха оружием ближнего боя станут более быстрыми и будут чередовать направления.
+			Рекомендуется оставлять включенным, так как это лучше всего соответствует таймингу и направлению столкновения урона.
 			''' */
 	}
 
 	EnableMeleeSlashVisualization: {
-		// DisplayName: "Enable Melee Slash Visualization"
+		// DisplayName: "Включить визуализацию взмаха меча"
 		/* Description:
 			'''
-			When enabled, a circular slash sprite will appear when swinging melee weapons.
-			This is best kept on, as it best mimics the range and collision arc of the weapon.
+			При включении при взмахе оружием ближнего боя появляется круговой спрайт взмаха.
+			Рекомендуется оставлять включенным, так как это лучше всего отображает дальность и дугу столкновения оружия.
 			''' */
 	}
 
 	EnablePlayerHeadRotation: {
-		DisplayName: "Включить поворот голов персонажей игроков"
-		Description: "Если включено, то головы персонажей игроков будут поворачиваться на их курсоры."
+		DisplayName: "Включить поворот головы персонажа игрока"
+		Description: "Если включено, головы персонажей игроков будут поворачиваться в сторону курсора."
 	}
 
 	EnablePlayerTilting: {
-		DisplayName: "Включить наклон персонажей игроков"
-		Description: "Если включено, персонажи игроков будут немного наклоняться в зависимости от их скорости. Это заставляет их выглядеть чуть-чуть живее, и добавляет чувство скорости."
+		DisplayName: "Включить наклон персонажа игрока"
+		Description: "Если включено, персонажи будут немного наклоняться в зависимости от скорости, что делает их движение более живым и динамичным."
 	}
 
 	EnableEnemyFlinchingEffects: {
-		// DisplayName: "Enable Enemy Flinching Effects"
-		// Description: "Toggles enemy sprites getting slightly shaken when hurt."
+		// DisplayName: "Включить эффект дергания врагов"
+		// Description: "Включает легкое потряхивание спрайтов врагов при получении урона."
 	}
 
 	EnableEnemyTiltingEffects: {
-		// DisplayName: "Enable Enemy Tilting Effects"
-		// Description: "Toggles enemy sprites being slightly tilted depending on their velocity."
+		// DisplayName: "Включить наклон врагов"
+		// Description: "Включает наклон спрайтов врагов в зависимости от их скорости."
 	}
 
 	EnableVisualWeaponRecoil: {
-		// DisplayName: "Enable Visual Weapon Recoil"
-		// Description: "When enabled, firing weapons will slightly rotate their sprites in player characters' hands."
+		// DisplayName: "Включить визуальный отдачу оружия"
+		// Description: "При включении спрайты оружия в руках персонажей будут слегка поворачиваться при выстреле."
 	}
 }
 
 Tweaks: {
-	// DisplayName: "Tweaks"
-	// Description: "This category contains tiny technical utilities that you're unlikely to care about."
+	// DisplayName: "Настройки"
+	// Description: "В этой категории собраны мелкие технические настройки, которые вряд ли вас заинтересуют."
 
 	DisplaySystemCursorWithDisabledUI: {
-		// DisplayName: "Display System Cursor With Disabled UI"
+		// DisplayName: "Показывать системный курсор при отключённом интерфейсе"
 		/* Description:
 			'''
-			When enabled, the operational system's cursor will be enabled when game interface is disabled using the F11 hotkey.
-			This is a tiny utility change that eases recording gameplay footage without UI, as recording software can disable capture of the OS cursor.
+			При включении системный курсор будет отображаться, когда интерфейс игры отключён с помощью горячей клавиши F11.
+			Это небольшое техническое улучшение, которое облегчает запись игрового видео без интерфейса, так как некоторые программы для записи могут не захватывать курсор ОС.
 			''' */
 	}
 }
